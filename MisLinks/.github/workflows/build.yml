@@ -20,9 +20,12 @@ jobs:
           gradle-version: 8.7
 
       - name: Compilar
-        run: gradle assembleDebug --no-daemon
+        working-directory: MisLinks
+        run: |
+          rm -f local.properties
+          gradle assembleDebug --no-daemon
 
       - uses: actions/upload-artifact@v4
         with:
           name: MisLinks-apk
-          path: app/build/outputs/apk/debug/app-debug.apk
+          path: MisLinks/app/build/outputs/apk/debug/app-debug.apk
