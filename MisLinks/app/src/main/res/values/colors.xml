@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#0F5FD6</color>
+    <color name="ic_launcher_background">#1B7F3B</color>
+    <!-- Fondo de la fila con el foco del mando (TV) -->
+    <color name="focus_bg">#1F0F5FD6</color>
+    <color name="focus_stroke">#0F5FD6</color>
+</resources>

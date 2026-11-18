@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- La pantalla táctil NO es obligatoria: sin esto Google Play y Android TV ocultan la app en televisores. -->
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <!-- Compatible con Android TV (Leanback) pero sigue instalándose también en móviles y tablets. -->
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:banner="@drawable/banner"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MisLinks">
+
+        <activity
+            android:name=".MainActivity"
+            android:banner="@drawable/banner"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:windowSoftInputMode="adjustResize">
+            <!-- Icono en el menú del móvil / tablet -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Icono (banner) en la pantalla de inicio de Android TV -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <!-- Permite "Compartir" un enlace desde otra app hacia esta -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

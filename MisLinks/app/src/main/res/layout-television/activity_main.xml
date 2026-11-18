@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Pantalla principal para Android TV.
+  - Márgenes de 48dp / 27dp: zona segura (overscan) recomendada por Google.
+  - Sin barra de herramientas ni botón flotante: todo son botones que se alcanzan con las flechas del mando.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="48dp"
+    android:paddingTop="27dp"
+    android:paddingEnd="48dp"
+    android:paddingBottom="27dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/app_name"
+            android:textAppearance="?attr/textAppearanceHeadlineMedium"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/search_hint"
+            android:imeOptions="actionSearch"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:maxLines="1"
+            android:minHeight="56dp"
+            android:nextFocusDown="@+id/list"
+            android:textSize="20sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:focusable="true"
+            android:minHeight="56dp"
+            android:nextFocusDown="@+id/list"
+            android:text="@string/add_title"
+            android:textSize="18sp"
+            app:icon="@drawable/ic_add" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_menu"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:focusable="true"
+            android:minHeight="56dp"
+            android:nextFocusDown="@+id/list"
+            android:text="@string/tv_options"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:paddingTop="8dp"
+        android:text="@string/tv_hint"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="32dp"
+            android:gravity="center"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textSize="22sp" />
+    </FrameLayout>
+</LinearLayout>

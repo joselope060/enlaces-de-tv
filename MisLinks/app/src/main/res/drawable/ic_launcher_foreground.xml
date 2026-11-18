@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Balón de fútbol blanco y negro. Zona segura del icono adaptable: 66dp centrales de 108dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#111111"
+        android:strokeWidth="1.8"
+        android:pathData="M24,54 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 Z" />
+    <path
+        android:strokeColor="#111111"
+        android:strokeWidth="1.4"
+        android:strokeLineCap="round"
+        android:pathData="M54,45 L54,39.3 M62.56,51.22 L67.98,49.46 M59.29,61.28 L62.64,65.89 M48.71,61.28 L45.36,65.89 M45.44,51.22 L40.02,49.46 M61.28,34.01 L70.76,40.9 M75.26,54.74 L71.63,65.89 M59.86,74.45 L48.14,74.45 M36.37,65.89 L32.74,54.74 M37.24,40.9 L46.72,34.01 M49.5,25.46 L49.4,24.81 M58.5,25.46 L58.6,24.81 M79.75,40.9 L80.34,40.61 M82.53,49.46 L83.18,49.35 M74.41,74.45 L74.88,74.91 M67.14,79.73 L67.44,80.32 M40.86,79.73 L40.56,80.32 M33.59,74.45 L33.12,74.91 M25.47,49.46 L24.82,49.35 M28.25,40.9 L27.66,40.61" />
+    <path
+        android:fillColor="#111111"
+        android:strokeColor="#111111"
+        android:strokeWidth="0.6"
+        android:strokeLineJoin="round"
+        android:pathData="M54,45 L62.56,51.22 L59.29,61.28 L48.71,61.28 L45.44,51.22 Z M54,39.3 L46.72,34.01 L49.5,25.46 L58.5,25.46 L61.28,34.01 Z M67.98,49.46 L70.76,40.9 L79.75,40.9 L82.53,49.46 L75.26,54.74 Z M62.64,65.89 L71.63,65.89 L74.41,74.45 L67.14,79.73 L59.86,74.45 Z M45.36,65.89 L48.14,74.45 L40.86,79.73 L33.59,74.45 L36.37,65.89 Z M40.02,49.46 L32.74,54.74 L25.47,49.46 L28.25,40.9 L37.24,40.9 Z" />
+</vector>

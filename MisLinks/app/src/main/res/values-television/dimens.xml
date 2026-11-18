@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Textos pensados para leerse a 3 metros -->
+    <dimen name="text_name">24sp</dimen>
+    <dimen name="text_meta">18sp</dimen>
+    <dimen name="text_url">16sp</dimen>
+    <dimen name="text_header">22sp</dimen>
+    <dimen name="text_note">20sp</dimen>
+    <dimen name="item_pad_h">24dp</dimen>
+    <dimen name="item_pad_v">16dp</dimen>
+</resources>

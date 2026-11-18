@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- En TV se usa siempre el tema oscuro: es el habitual en pantallas grandes y más cómodo de ver a distancia. -->
+    <style name="Theme.MisLinks" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_name">16sp</dimen>
+    <dimen name="text_meta">12sp</dimen>
+    <dimen name="text_url">12sp</dimen>
+    <dimen name="text_header">14sp</dimen>
+    <dimen name="text_note">14sp</dimen>
+    <dimen name="item_pad_h">16dp</dimen>
+    <dimen name="item_pad_v">12dp</dimen>
+</resources>

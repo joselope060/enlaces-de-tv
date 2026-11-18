@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/m_import" android:title="@string/menu_import" app:showAsAction="never" />
+    <item android:id="@+id/m_m3u" android:title="@string/menu_m3u" app:showAsAction="never" />
+    <item android:id="@+id/m_backup" android:title="@string/menu_backup" app:showAsAction="never" />
+    <item android:id="@+id/m_settings" android:title="@string/menu_settings" app:showAsAction="never" />
+    <item android:id="@+id/m_clear_history" android:title="@string/menu_clear_history" app:showAsAction="never" />
+    <item android:id="@+id/m_clear" android:title="@string/menu_clear" app:showAsAction="never" />
+</menu>

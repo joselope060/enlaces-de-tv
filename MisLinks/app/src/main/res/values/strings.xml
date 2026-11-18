@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mis enlaces</string>
+    <string name="search_hint">Buscar por nombre o grupo</string>
+    <string name="empty_none">Aún no hay enlaces. Pulsa «Añadir enlace» o comparte uno desde otra app.</string>
+    <string name="empty_search">Ningún enlace coincide con la búsqueda.</string>
+
+    <string name="add_title">Añadir enlace</string>
+    <string name="edit_title">Editar enlace</string>
+    <string name="field_name">Nombre</string>
+    <string name="field_link">Enlace (acestream://…, ID, magnet o https)</string>
+    <string name="field_group">Grupo (opcional)</string>
+    <string name="invalid_link">Enlace no válido. Usa acestream://ID, un ID de 40 caracteres, magnet:? o http(s)://</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="reset">Restablecer</string>
+
+    <string name="act_player">Abrir con reproductor (URL del motor)</string>
+    <string name="act_copy_engine">Copiar URL del motor</string>
+    <string name="act_copy_link">Copiar enlace</string>
+    <string name="act_edit">Editar</string>
+    <string name="act_delete">Borrar</string>
+    <string name="copied">Copiado</string>
+    <string name="deleted">Enlace borrado</string>
+    <string name="no_app">No hay ninguna app que abra este enlace. Para acestream:// instala Ace Stream; para enlaces web hace falta un navegador.</string>
+    <string name="no_player">No hay ningún reproductor de vídeo instalado.</string>
+
+    <string name="menu_import">Importar desde el portapapeles</string>
+    <string name="menu_m3u">Exportar lista M3U</string>
+    <string name="menu_backup">Exportar copia de seguridad</string>
+    <string name="menu_settings">Ajustes del motor</string>
+    <string name="menu_clear">Vaciar la lista</string>
+    <string name="import_ok">%d enlaces importados</string>
+    <string name="import_none">No se encontró ningún enlace nuevo en el portapapeles</string>
+    <string name="export_none">No hay enlaces que exportar</string>
+
+    <string name="settings_title">Ajustes del motor</string>
+    <string name="template_help">URL del motor para reproductores externos. Debe contener {id}. Cambia 127.0.0.1 por la IP de tu servidor si el motor está en otro equipo.</string>
+    <string name="template_needs_id">La URL debe contener {id}</string>
+
+    <string name="clear_title">Vaciar la lista</string>
+    <string name="clear_message">Se borrarán todos los enlaces guardados en este dispositivo.</string>
+    <string name="clear_yes">Vaciar</string>
+
+    <string name="section_links">Mis enlaces</string>
+    <string name="section_history">Historial de reproducción (%1$d/%2$d)</string>
+    <string name="history_empty">Aquí aparecerán los enlaces de AceStream que abras (máximo 20).</string>
+    <string name="act_save_link">Guardar en mis enlaces</string>
+    <string name="act_remove_history">Quitar del historial</string>
+    <string name="saved">Enlace guardado</string>
+    <string name="menu_clear_history">Borrar historial</string>
+    <string name="clear_history_title">Borrar historial</string>
+    <string name="clear_history_message">Se borrarán los enlaces reproducidos recientemente en este dispositivo.</string>
+    <string name="clear_history_yes">Borrar</string>
+
+    <string name="tv_options">Opciones</string>
+    <string name="tv_hint">Mantén pulsado OK sobre un enlace para ver más opciones (reproductor, copiar, editar, borrar).</string>
+</resources>
